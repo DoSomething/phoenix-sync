@@ -22,7 +22,7 @@ const contentfulExport = require('contentful-export');
 const exportOptions = {
   spaceId: PRODUCTION_SPACE_ID,
   managementToken: MANAGEMENT_TOKEN,
-  exportDir: `${__dirname}/tmp`,
+  exportDir: EXPORT_DIR,
 };
 
 const contentfulImport = require('contentful-import');
