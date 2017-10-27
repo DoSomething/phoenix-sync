@@ -16,16 +16,8 @@ $ cp .env.example .env
 
 ```sh
 # Migrate prod content to the staging space
-$ npm run staging
+$ npm start
 
-# Migrate prod content to your developer space
-$ npm run developer
-```
-
-## automatic staging updates
-
-For use on a server, syncs the staging space anytime a change is published in production.
-
-```sh
-$ npm run auto-update
+# Run the script
+$ npm run automation
 ```

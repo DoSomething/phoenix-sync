@@ -1,1 +1,1 @@
-worker: npm run auto-update
+worker: npm run automation
