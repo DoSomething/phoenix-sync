@@ -1,1 +1,1 @@
-worker: npm run automation
+web: npm run automation
