@@ -16,8 +16,8 @@ $ cp .env.example .env
 
 ```sh
 # Migrate prod content to the staging space
-$ npm start
+$ node index.js
 
 # Run the script
-$ npm run automation
+$ node automation.js
 ```
