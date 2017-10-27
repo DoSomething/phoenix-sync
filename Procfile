@@ -1,1 +1,1 @@
-web: npm run automation
+web: node automation.js
